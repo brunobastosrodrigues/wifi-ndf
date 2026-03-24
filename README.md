@@ -67,11 +67,11 @@ compute_ndf(
 ## Citation
 
 ```bibtex
-@inproceedings{khamaisi2026ndf,
+@misc{khamaisi2026ndf,
   title={How Many Nodes Do We Need? A Spatial Coverage Metric for Wireless Sensing},
   author={Khamaisi, Karim and Rodrigues, Bruno},
-  booktitle={Proc. IEEE GLOBECOM},
-  year={2026}
+  year={2026},
+  note={Under review}
 }
 ```
 
