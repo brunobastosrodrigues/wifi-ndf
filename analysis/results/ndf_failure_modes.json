@@ -1,0 +1,43 @@
+{
+  "config": {
+    "room": [
+      5.0,
+      4.0
+    ],
+    "n_nodes": 14,
+    "wavelength_m": 0.125,
+    "jitter_m": 0.05,
+    "min_separation_m": 0.25,
+    "ndf_threshold": 0.01
+  },
+  "layouts": {
+    "Well-spread": {
+      "mean": 0.978021978021978,
+      "std": 0.0,
+      "n_replicates": 12,
+      "min_separation_m": 0.8687311883149007,
+      "n_links": 91
+    },
+    "One wall": {
+      "mean": 0.37087912087912084,
+      "std": 0.012787765607847017,
+      "n_replicates": 12,
+      "min_separation_m": 0.3692307692307688,
+      "n_links": 91
+    },
+    "Corner cluster": {
+      "mean": 0.9633699633699634,
+      "std": 0.006852852356728806,
+      "n_replicates": 12,
+      "min_separation_m": 0.6,
+      "n_links": 91
+    },
+    "Two groups": {
+      "mean": 0.8443223443223444,
+      "std": 0.009862939207206035,
+      "n_replicates": 12,
+      "min_separation_m": 0.39999999999999947,
+      "n_links": 91
+    }
+  }
+}

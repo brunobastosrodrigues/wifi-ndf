@@ -1,0 +1,49 @@
+{
+  "gamma": 1.0,
+  "budgets": [
+    100,
+    1000
+  ],
+  "results": {
+    "N16_B100": {
+      "uniform": 2.479895244292146,
+      "greedy_link": 3.6210101159296104,
+      "greedy_link_cert": 0.5453042923768411,
+      "greedy_tx": 22.25529868386734,
+      "greedy_tx_cert": 0.594809155472865,
+      "links_used": 32,
+      "tx_used": 16,
+      "lazy_evals_link": 374
+    },
+    "N16_B1000": {
+      "uniform": 16.721026473657382,
+      "greedy_link": 19.68034296126788,
+      "greedy_link_cert": 0.6043327176169416,
+      "greedy_tx": 80.84717107359523,
+      "greedy_tx_cert": 0.6908572544026361,
+      "links_used": 72,
+      "tx_used": 16,
+      "lazy_evals_link": 2556
+    },
+    "N40_B100": {
+      "uniform": 0.4150357781565274,
+      "greedy_link": 0.7753960565774796,
+      "greedy_link_cert": 0.5290858787221124,
+      "greedy_tx": 11.758029593016694,
+      "greedy_tx_cert": 0.5656112267609071,
+      "links_used": 26,
+      "tx_used": 25,
+      "lazy_evals_link": 1385
+    },
+    "N40_B1000": {
+      "uniform": 3.681887818634739,
+      "greedy_link": 5.402943859366183,
+      "greedy_link_cert": 0.5579108720478717,
+      "greedy_tx": 56.02186892236252,
+      "greedy_tx_cert": 0.630583141387671,
+      "links_used": 126,
+      "tx_used": 40,
+      "lazy_evals_link": 7768
+    }
+  }
+}

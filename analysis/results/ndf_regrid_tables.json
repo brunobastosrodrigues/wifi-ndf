@@ -1,0 +1,853 @@
+{
+  "tau": 0.01,
+  "criterion": "res <= sigma_F(d_min)/2",
+  "table2": {
+    "Well-spread": {
+      "d_min_m": 0.8687311883149007,
+      "sigma_f_m": 0.08238302257571133,
+      "res_legacy_m": 0.2344036154692477,
+      "res_physical_m": 0.04119151128785566,
+      "legacy": {
+        "ndf": 89,
+        "links": 91,
+        "efficiency": 0.978021978021978,
+        "sigma_min_over_sigma1": 0.02557869579855627,
+        "margin_over_tau": 2.5578695798556272,
+        "near_tau_count": 2,
+        "efficiency_at_tau_interval": [
+          1.0,
+          0.978021978021978
+        ],
+        "efficiency_swing": 0.02197802197802201
+      },
+      "physical": {
+        "ndf": 89,
+        "links": 91,
+        "efficiency": 0.978021978021978,
+        "sigma_min_over_sigma1": 0.042868345705752105,
+        "margin_over_tau": 4.28683457057521,
+        "near_tau_count": 2,
+        "efficiency_at_tau_interval": [
+          1.0,
+          0.978021978021978
+        ],
+        "efficiency_swing": 0.02197802197802201
+      }
+    },
+    "Two groups": {
+      "d_min_m": 0.39999999999999947,
+      "sigma_f_m": 0.055901699437494706,
+      "res_legacy_m": 0.2344036154692477,
+      "res_physical_m": 0.027950849718747353,
+      "legacy": {
+        "ndf": 74,
+        "links": 91,
+        "efficiency": 0.8131868131868132,
+        "sigma_min_over_sigma1": 0.011691724278268135,
+        "margin_over_tau": 1.1691724278268134,
+        "near_tau_count": 10,
+        "efficiency_at_tau_interval": [
+          0.8571428571428571,
+          0.7472527472527473
+        ],
+        "efficiency_swing": 0.10989010989010983
+      },
+      "physical": {
+        "ndf": 75,
+        "links": 91,
+        "efficiency": 0.8241758241758241,
+        "sigma_min_over_sigma1": 0.012418650985699718,
+        "margin_over_tau": 1.2418650985699717,
+        "near_tau_count": 10,
+        "efficiency_at_tau_interval": [
+          0.8681318681318682,
+          0.7582417582417582
+        ],
+        "efficiency_swing": 0.10989010989010994
+      }
+    },
+    "Corner cluster": {
+      "d_min_m": 0.6,
+      "sigma_f_m": 0.06846531968814576,
+      "res_legacy_m": 0.2344036154692477,
+      "res_physical_m": 0.03423265984407288,
+      "legacy": {
+        "ndf": 60,
+        "links": 91,
+        "efficiency": 0.6593406593406593,
+        "sigma_min_over_sigma1": 0.011004348811292511,
+        "margin_over_tau": 1.100434881129251,
+        "near_tau_count": 6,
+        "efficiency_at_tau_interval": [
+          0.6923076923076923,
+          0.6263736263736264
+        ],
+        "efficiency_swing": 0.06593406593406592
+      },
+      "physical": {
+        "ndf": 86,
+        "links": 91,
+        "efficiency": 0.945054945054945,
+        "sigma_min_over_sigma1": 0.010019314906158526,
+        "margin_over_tau": 1.0019314906158525,
+        "near_tau_count": 11,
+        "efficiency_at_tau_interval": [
+          0.989010989010989,
+          0.8681318681318682
+        ],
+        "efficiency_swing": 0.1208791208791209
+      }
+    },
+    "One wall": {
+      "d_min_m": 0.3692307692307688,
+      "sigma_f_m": 0.05370861555295744,
+      "res_legacy_m": 0.2344036154692477,
+      "res_physical_m": 0.02685430777647872,
+      "legacy": {
+        "ndf": 25,
+        "links": 91,
+        "efficiency": 0.27472527472527475,
+        "sigma_min_over_sigma1": 0.012249248429919752,
+        "margin_over_tau": 1.2249248429919752,
+        "near_tau_count": 6,
+        "efficiency_at_tau_interval": [
+          0.31868131868131866,
+          0.25274725274725274
+        ],
+        "efficiency_swing": 0.06593406593406592
+      },
+      "physical": {
+        "ndf": 31,
+        "links": 91,
+        "efficiency": 0.34065934065934067,
+        "sigma_min_over_sigma1": 0.010065743434938577,
+        "margin_over_tau": 1.0065743434938577,
+        "near_tau_count": 13,
+        "efficiency_at_tau_interval": [
+          0.42857142857142855,
+          0.2857142857142857
+        ],
+        "efficiency_swing": 0.14285714285714285
+      }
+    }
+  },
+  "n_star": {
+    "Well-spread": {
+      "per_n": {
+        "3": {
+          "ndf": 3,
+          "links": 3,
+          "efficiency": 1.0,
+          "sigma_min_over_sigma1": 0.8699403990730451,
+          "margin_over_tau": 86.99403990730451,
+          "near_tau_count": 0,
+          "efficiency_at_tau_interval": [
+            1.0,
+            1.0
+          ],
+          "efficiency_swing": 0.0
+        },
+        "4": {
+          "ndf": 6,
+          "links": 6,
+          "efficiency": 1.0,
+          "sigma_min_over_sigma1": 0.6642071616297578,
+          "margin_over_tau": 66.42071616297578,
+          "near_tau_count": 0,
+          "efficiency_at_tau_interval": [
+            1.0,
+            1.0
+          ],
+          "efficiency_swing": 0.0
+        },
+        "5": {
+          "ndf": 10,
+          "links": 10,
+          "efficiency": 1.0,
+          "sigma_min_over_sigma1": 0.48218004237975254,
+          "margin_over_tau": 48.21800423797525,
+          "near_tau_count": 0,
+          "efficiency_at_tau_interval": [
+            1.0,
+            1.0
+          ],
+          "efficiency_swing": 0.0
+        },
+        "6": {
+          "ndf": 15,
+          "links": 15,
+          "efficiency": 1.0,
+          "sigma_min_over_sigma1": 0.3802153485741172,
+          "margin_over_tau": 38.02153485741172,
+          "near_tau_count": 0,
+          "efficiency_at_tau_interval": [
+            1.0,
+            1.0
+          ],
+          "efficiency_swing": 0.0
+        },
+        "7": {
+          "ndf": 21,
+          "links": 21,
+          "efficiency": 1.0,
+          "sigma_min_over_sigma1": 0.17500577356609773,
+          "margin_over_tau": 17.50057735660977,
+          "near_tau_count": 0,
+          "efficiency_at_tau_interval": [
+            1.0,
+            1.0
+          ],
+          "efficiency_swing": 0.0
+        },
+        "8": {
+          "ndf": 28,
+          "links": 28,
+          "efficiency": 1.0,
+          "sigma_min_over_sigma1": 0.2000094802586324,
+          "margin_over_tau": 20.00094802586324,
+          "near_tau_count": 0,
+          "efficiency_at_tau_interval": [
+            1.0,
+            1.0
+          ],
+          "efficiency_swing": 0.0
+        },
+        "9": {
+          "ndf": 36,
+          "links": 36,
+          "efficiency": 1.0,
+          "sigma_min_over_sigma1": 0.10661822701038119,
+          "margin_over_tau": 10.661822701038119,
+          "near_tau_count": 0,
+          "efficiency_at_tau_interval": [
+            1.0,
+            1.0
+          ],
+          "efficiency_swing": 0.0
+        },
+        "10": {
+          "ndf": 45,
+          "links": 45,
+          "efficiency": 1.0,
+          "sigma_min_over_sigma1": 0.08913435043194956,
+          "margin_over_tau": 8.913435043194957,
+          "near_tau_count": 0,
+          "efficiency_at_tau_interval": [
+            1.0,
+            1.0
+          ],
+          "efficiency_swing": 0.0
+        },
+        "11": {
+          "ndf": 55,
+          "links": 55,
+          "efficiency": 1.0,
+          "sigma_min_over_sigma1": 0.016489656626876497,
+          "margin_over_tau": 1.6489656626876497,
+          "near_tau_count": 1,
+          "efficiency_at_tau_interval": [
+            1.0,
+            0.9818181818181818
+          ],
+          "efficiency_swing": 0.018181818181818188
+        },
+        "12": {
+          "ndf": 66,
+          "links": 66,
+          "efficiency": 1.0,
+          "sigma_min_over_sigma1": 0.02837966323348962,
+          "margin_over_tau": 2.837966323348962,
+          "near_tau_count": 0,
+          "efficiency_at_tau_interval": [
+            1.0,
+            1.0
+          ],
+          "efficiency_swing": 0.0
+        },
+        "13": {
+          "ndf": 76,
+          "links": 78,
+          "efficiency": 0.9743589743589743,
+          "sigma_min_over_sigma1": 0.025873834013193556,
+          "margin_over_tau": 2.5873834013193555,
+          "near_tau_count": 2,
+          "efficiency_at_tau_interval": [
+            1.0,
+            0.9743589743589743
+          ],
+          "efficiency_swing": 0.02564102564102566
+        },
+        "14": {
+          "ndf": 89,
+          "links": 91,
+          "efficiency": 0.978021978021978,
+          "sigma_min_over_sigma1": 0.042868345705752105,
+          "margin_over_tau": 4.28683457057521,
+          "near_tau_count": 2,
+          "efficiency_at_tau_interval": [
+            1.0,
+            0.978021978021978
+          ],
+          "efficiency_swing": 0.02197802197802201
+        },
+        "15": {
+          "ndf": 101,
+          "links": 105,
+          "efficiency": 0.9619047619047619,
+          "sigma_min_over_sigma1": 0.014810554367338632,
+          "margin_over_tau": 1.481055436733863,
+          "near_tau_count": 4,
+          "efficiency_at_tau_interval": [
+            0.9809523809523809,
+            0.9428571428571428
+          ],
+          "efficiency_swing": 0.03809523809523807
+        },
+        "16": {
+          "ndf": 114,
+          "links": 120,
+          "efficiency": 0.95,
+          "sigma_min_over_sigma1": 0.01041168348595729,
+          "margin_over_tau": 1.041168348595729,
+          "near_tau_count": 4,
+          "efficiency_at_tau_interval": [
+            0.9666666666666667,
+            0.9333333333333333
+          ],
+          "efficiency_swing": 0.033333333333333326
+        },
+        "17": {
+          "ndf": 127,
+          "links": 136,
+          "efficiency": 0.9338235294117647,
+          "sigma_min_over_sigma1": 0.013857860876038913,
+          "margin_over_tau": 1.3857860876038912,
+          "near_tau_count": 6,
+          "efficiency_at_tau_interval": [
+            0.9558823529411765,
+            0.9117647058823529
+          ],
+          "efficiency_swing": 0.044117647058823595
+        },
+        "18": {
+          "ndf": 143,
+          "links": 153,
+          "efficiency": 0.934640522875817,
+          "sigma_min_over_sigma1": 0.013398322819010652,
+          "margin_over_tau": 1.339832281901065,
+          "near_tau_count": 7,
+          "efficiency_at_tau_interval": [
+            0.954248366013072,
+            0.9084967320261438
+          ],
+          "efficiency_swing": 0.045751633986928164
+        },
+        "19": {
+          "ndf": 156,
+          "links": 171,
+          "efficiency": 0.9122807017543859,
+          "sigma_min_over_sigma1": 0.010086054200814052,
+          "margin_over_tau": 1.0086054200814052,
+          "near_tau_count": 8,
+          "efficiency_at_tau_interval": [
+            0.9298245614035088,
+            0.8830409356725146
+          ],
+          "efficiency_swing": 0.04678362573099415
+        },
+        "20": {
+          "ndf": 170,
+          "links": 190,
+          "efficiency": 0.8947368421052632,
+          "sigma_min_over_sigma1": 0.011628134996179991,
+          "margin_over_tau": 1.162813499617999,
+          "near_tau_count": 13,
+          "efficiency_at_tau_interval": [
+            0.9263157894736842,
+            0.8578947368421053
+          ],
+          "efficiency_swing": 0.06842105263157894
+        }
+      },
+      "n_star_exact": 12
+    },
+    "One wall": {
+      "per_n": {
+        "3": {
+          "ndf": 3,
+          "links": 3,
+          "efficiency": 1.0,
+          "sigma_min_over_sigma1": 0.24630808801361742,
+          "margin_over_tau": 24.63080880136174,
+          "near_tau_count": 0,
+          "efficiency_at_tau_interval": [
+            1.0,
+            1.0
+          ],
+          "efficiency_swing": 0.0
+        },
+        "4": {
+          "ndf": 6,
+          "links": 6,
+          "efficiency": 1.0,
+          "sigma_min_over_sigma1": 0.034315182138911486,
+          "margin_over_tau": 3.4315182138911484,
+          "near_tau_count": 0,
+          "efficiency_at_tau_interval": [
+            1.0,
+            1.0
+          ],
+          "efficiency_swing": 0.0
+        },
+        "5": {
+          "ndf": 9,
+          "links": 10,
+          "efficiency": 0.9,
+          "sigma_min_over_sigma1": 0.01943837541495741,
+          "margin_over_tau": 1.943837541495741,
+          "near_tau_count": 2,
+          "efficiency_at_tau_interval": [
+            1.0,
+            0.8
+          ],
+          "efficiency_swing": 0.19999999999999996
+        },
+        "6": {
+          "ndf": 12,
+          "links": 15,
+          "efficiency": 0.8,
+          "sigma_min_over_sigma1": 0.01421991322633152,
+          "margin_over_tau": 1.421991322633152,
+          "near_tau_count": 3,
+          "efficiency_at_tau_interval": [
+            0.9333333333333333,
+            0.7333333333333333
+          ],
+          "efficiency_swing": 0.20000000000000007
+        },
+        "7": {
+          "ndf": 15,
+          "links": 21,
+          "efficiency": 0.7142857142857143,
+          "sigma_min_over_sigma1": 0.011468624438391296,
+          "margin_over_tau": 1.1468624438391295,
+          "near_tau_count": 4,
+          "efficiency_at_tau_interval": [
+            0.8095238095238095,
+            0.6190476190476191
+          ],
+          "efficiency_swing": 0.19047619047619047
+        },
+        "8": {
+          "ndf": 18,
+          "links": 28,
+          "efficiency": 0.6428571428571429,
+          "sigma_min_over_sigma1": 0.01022648094771176,
+          "margin_over_tau": 1.022648094771176,
+          "near_tau_count": 5,
+          "efficiency_at_tau_interval": [
+            0.7142857142857143,
+            0.5357142857142857
+          ],
+          "efficiency_swing": 0.1785714285714286
+        },
+        "9": {
+          "ndf": 20,
+          "links": 36,
+          "efficiency": 0.5555555555555556,
+          "sigma_min_over_sigma1": 0.011020131408306991,
+          "margin_over_tau": 1.102013140830699,
+          "near_tau_count": 6,
+          "efficiency_at_tau_interval": [
+            0.6388888888888888,
+            0.4722222222222222
+          ],
+          "efficiency_swing": 0.16666666666666663
+        },
+        "10": {
+          "ndf": 22,
+          "links": 45,
+          "efficiency": 0.4888888888888889,
+          "sigma_min_over_sigma1": 0.011411443589152572,
+          "margin_over_tau": 1.1411443589152572,
+          "near_tau_count": 8,
+          "efficiency_at_tau_interval": [
+            0.6,
+            0.4222222222222222
+          ],
+          "efficiency_swing": 0.17777777777777776
+        },
+        "11": {
+          "ndf": 25,
+          "links": 55,
+          "efficiency": 0.45454545454545453,
+          "sigma_min_over_sigma1": 0.010020793959167764,
+          "margin_over_tau": 1.0020793959167764,
+          "near_tau_count": 9,
+          "efficiency_at_tau_interval": [
+            0.5454545454545454,
+            0.38181818181818183
+          ],
+          "efficiency_swing": 0.16363636363636358
+        },
+        "12": {
+          "ndf": 27,
+          "links": 66,
+          "efficiency": 0.4090909090909091,
+          "sigma_min_over_sigma1": 0.010125249482721307,
+          "margin_over_tau": 1.0125249482721306,
+          "near_tau_count": 10,
+          "efficiency_at_tau_interval": [
+            0.5,
+            0.3484848484848485
+          ],
+          "efficiency_swing": 0.1515151515151515
+        },
+        "13": {
+          "ndf": 29,
+          "links": 78,
+          "efficiency": 0.3717948717948718,
+          "sigma_min_over_sigma1": 0.010182187124950365,
+          "margin_over_tau": 1.0182187124950364,
+          "near_tau_count": 12,
+          "efficiency_at_tau_interval": [
+            0.46153846153846156,
+            0.3076923076923077
+          ],
+          "efficiency_swing": 0.15384615384615385
+        },
+        "14": {
+          "ndf": 31,
+          "links": 91,
+          "efficiency": 0.34065934065934067,
+          "sigma_min_over_sigma1": 0.010065743434938577,
+          "margin_over_tau": 1.0065743434938577,
+          "near_tau_count": 13,
+          "efficiency_at_tau_interval": [
+            0.42857142857142855,
+            0.2857142857142857
+          ],
+          "efficiency_swing": 0.14285714285714285
+        },
+        "15": {
+          "ndf": 32,
+          "links": 105,
+          "efficiency": 0.3047619047619048,
+          "sigma_min_over_sigma1": 0.01111242902962269,
+          "margin_over_tau": 1.111242902962269,
+          "near_tau_count": 13,
+          "efficiency_at_tau_interval": [
+            0.3904761904761905,
+            0.26666666666666666
+          ],
+          "efficiency_swing": 0.12380952380952381
+        },
+        "16": {
+          "ndf": 34,
+          "links": 120,
+          "efficiency": 0.2833333333333333,
+          "sigma_min_over_sigma1": 0.010789451716063369,
+          "margin_over_tau": 1.0789451716063367,
+          "near_tau_count": 13,
+          "efficiency_at_tau_interval": [
+            0.35833333333333334,
+            0.25
+          ],
+          "efficiency_swing": 0.10833333333333334
+        },
+        "17": {
+          "ndf": 36,
+          "links": 136,
+          "efficiency": 0.2647058823529412,
+          "sigma_min_over_sigma1": 0.010391283165124502,
+          "margin_over_tau": 1.03912831651245,
+          "near_tau_count": 17,
+          "efficiency_at_tau_interval": [
+            0.33088235294117646,
+            0.20588235294117646
+          ],
+          "efficiency_swing": 0.125
+        },
+        "18": {
+          "ndf": 38,
+          "links": 153,
+          "efficiency": 0.24836601307189543,
+          "sigma_min_over_sigma1": 0.010064628304719004,
+          "margin_over_tau": 1.0064628304719003,
+          "near_tau_count": 20,
+          "efficiency_at_tau_interval": [
+            0.30718954248366015,
+            0.17647058823529413
+          ],
+          "efficiency_swing": 0.13071895424836602
+        },
+        "19": {
+          "ndf": 39,
+          "links": 171,
+          "efficiency": 0.22807017543859648,
+          "sigma_min_over_sigma1": 0.010682101059339507,
+          "margin_over_tau": 1.0682101059339506,
+          "near_tau_count": 23,
+          "efficiency_at_tau_interval": [
+            0.28654970760233917,
+            0.15204678362573099
+          ],
+          "efficiency_swing": 0.13450292397660818
+        },
+        "20": {
+          "ndf": 41,
+          "links": 190,
+          "efficiency": 0.21578947368421053,
+          "sigma_min_over_sigma1": 0.010279777590745906,
+          "margin_over_tau": 1.0279777590745904,
+          "near_tau_count": 25,
+          "efficiency_at_tau_interval": [
+            0.26842105263157895,
+            0.1368421052631579
+          ],
+          "efficiency_swing": 0.13157894736842105
+        }
+      },
+      "n_star_exact": 4
+    },
+    "Corner cluster": {
+      "per_n": {
+        "3": {
+          "ndf": 3,
+          "links": 3,
+          "efficiency": 1.0,
+          "sigma_min_over_sigma1": 0.7244154250020043,
+          "margin_over_tau": 72.44154250020043,
+          "near_tau_count": 0,
+          "efficiency_at_tau_interval": [
+            1.0,
+            1.0
+          ],
+          "efficiency_swing": 0.0
+        },
+        "4": {
+          "ndf": 6,
+          "links": 6,
+          "efficiency": 1.0,
+          "sigma_min_over_sigma1": 0.6210517987557596,
+          "margin_over_tau": 62.105179875575956,
+          "near_tau_count": 0,
+          "efficiency_at_tau_interval": [
+            1.0,
+            1.0
+          ],
+          "efficiency_swing": 0.0
+        },
+        "5": {
+          "ndf": 10,
+          "links": 10,
+          "efficiency": 1.0,
+          "sigma_min_over_sigma1": 0.19472337237905865,
+          "margin_over_tau": 19.472337237905865,
+          "near_tau_count": 0,
+          "efficiency_at_tau_interval": [
+            1.0,
+            1.0
+          ],
+          "efficiency_swing": 0.0
+        },
+        "6": {
+          "ndf": 15,
+          "links": 15,
+          "efficiency": 1.0,
+          "sigma_min_over_sigma1": 0.153550406366516,
+          "margin_over_tau": 15.355040636651601,
+          "near_tau_count": 0,
+          "efficiency_at_tau_interval": [
+            1.0,
+            1.0
+          ],
+          "efficiency_swing": 0.0
+        },
+        "7": {
+          "ndf": 21,
+          "links": 21,
+          "efficiency": 1.0,
+          "sigma_min_over_sigma1": 0.07142467033005734,
+          "margin_over_tau": 7.142467033005734,
+          "near_tau_count": 0,
+          "efficiency_at_tau_interval": [
+            1.0,
+            1.0
+          ],
+          "efficiency_swing": 0.0
+        },
+        "8": {
+          "ndf": 28,
+          "links": 28,
+          "efficiency": 1.0,
+          "sigma_min_over_sigma1": 0.05826888293668777,
+          "margin_over_tau": 5.826888293668777,
+          "near_tau_count": 0,
+          "efficiency_at_tau_interval": [
+            1.0,
+            1.0
+          ],
+          "efficiency_swing": 0.0
+        },
+        "9": {
+          "ndf": 36,
+          "links": 36,
+          "efficiency": 1.0,
+          "sigma_min_over_sigma1": 0.03948421962859734,
+          "margin_over_tau": 3.948421962859734,
+          "near_tau_count": 0,
+          "efficiency_at_tau_interval": [
+            1.0,
+            1.0
+          ],
+          "efficiency_swing": 0.0
+        },
+        "10": {
+          "ndf": 45,
+          "links": 45,
+          "efficiency": 1.0,
+          "sigma_min_over_sigma1": 0.010795673783611877,
+          "margin_over_tau": 1.0795673783611877,
+          "near_tau_count": 2,
+          "efficiency_at_tau_interval": [
+            1.0,
+            0.9555555555555556
+          ],
+          "efficiency_swing": 0.0444444444444444
+        },
+        "11": {
+          "ndf": 54,
+          "links": 55,
+          "efficiency": 0.9818181818181818,
+          "sigma_min_over_sigma1": 0.013912011575787767,
+          "margin_over_tau": 1.3912011575787766,
+          "near_tau_count": 2,
+          "efficiency_at_tau_interval": [
+            1.0,
+            0.9636363636363636
+          ],
+          "efficiency_swing": 0.036363636363636376
+        },
+        "12": {
+          "ndf": 65,
+          "links": 66,
+          "efficiency": 0.9848484848484849,
+          "sigma_min_over_sigma1": 0.010549540451200183,
+          "margin_over_tau": 1.0549540451200183,
+          "near_tau_count": 5,
+          "efficiency_at_tau_interval": [
+            1.0,
+            0.9242424242424242
+          ],
+          "efficiency_swing": 0.0757575757575758
+        },
+        "13": {
+          "ndf": 75,
+          "links": 78,
+          "efficiency": 0.9615384615384616,
+          "sigma_min_over_sigma1": 0.010083280560688673,
+          "margin_over_tau": 1.0083280560688672,
+          "near_tau_count": 9,
+          "efficiency_at_tau_interval": [
+            1.0,
+            0.8846153846153846
+          ],
+          "efficiency_swing": 0.11538461538461542
+        },
+        "14": {
+          "ndf": 86,
+          "links": 91,
+          "efficiency": 0.945054945054945,
+          "sigma_min_over_sigma1": 0.010019314906158526,
+          "margin_over_tau": 1.0019314906158525,
+          "near_tau_count": 11,
+          "efficiency_at_tau_interval": [
+            0.989010989010989,
+            0.8681318681318682
+          ],
+          "efficiency_swing": 0.1208791208791209
+        },
+        "15": {
+          "ndf": 98,
+          "links": 105,
+          "efficiency": 0.9333333333333333,
+          "sigma_min_over_sigma1": 0.010722304768307166,
+          "margin_over_tau": 1.0722304768307167,
+          "near_tau_count": 16,
+          "efficiency_at_tau_interval": [
+            0.9904761904761905,
+            0.8380952380952381
+          ],
+          "efficiency_swing": 0.1523809523809524
+        },
+        "16": {
+          "ndf": 111,
+          "links": 120,
+          "efficiency": 0.925,
+          "sigma_min_over_sigma1": 0.010705968822806961,
+          "margin_over_tau": 1.0705968822806962,
+          "near_tau_count": 20,
+          "efficiency_at_tau_interval": [
+            0.9666666666666667,
+            0.8
+          ],
+          "efficiency_swing": 0.16666666666666663
+        },
+        "17": {
+          "ndf": 105,
+          "links": 136,
+          "efficiency": 0.7720588235294118,
+          "sigma_min_over_sigma1": 0.010070442690850445,
+          "margin_over_tau": 1.0070442690850445,
+          "near_tau_count": 30,
+          "efficiency_at_tau_interval": [
+            0.875,
+            0.6544117647058824
+          ],
+          "efficiency_swing": 0.22058823529411764
+        },
+        "18": {
+          "ndf": 115,
+          "links": 153,
+          "efficiency": 0.7516339869281046,
+          "sigma_min_over_sigma1": 0.010064936734308295,
+          "margin_over_tau": 1.0064936734308294,
+          "near_tau_count": 34,
+          "efficiency_at_tau_interval": [
+            0.8562091503267973,
+            0.6339869281045751
+          ],
+          "efficiency_swing": 0.2222222222222222
+        },
+        "19": {
+          "ndf": 124,
+          "links": 171,
+          "efficiency": 0.7251461988304093,
+          "sigma_min_over_sigma1": 0.010053342738657163,
+          "margin_over_tau": 1.0053342738657163,
+          "near_tau_count": 40,
+          "efficiency_at_tau_interval": [
+            0.8421052631578947,
+            0.6081871345029239
+          ],
+          "efficiency_swing": 0.23391812865497075
+        },
+        "20": {
+          "ndf": 132,
+          "links": 190,
+          "efficiency": 0.6947368421052632,
+          "sigma_min_over_sigma1": 0.01004758474590876,
+          "margin_over_tau": 1.004758474590876,
+          "near_tau_count": 48,
+          "efficiency_at_tau_interval": [
+            0.8105263157894737,
+            0.5578947368421052
+          ],
+          "efficiency_swing": 0.25263157894736843
+        }
+      },
+      "n_star_exact": 10
+    }
+  }
+}

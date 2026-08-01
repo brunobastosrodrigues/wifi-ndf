@@ -1,0 +1,344 @@
+{
+  "taus": [
+    0.001,
+    0.002,
+    0.005,
+    0.01,
+    0.02,
+    0.05,
+    0.1
+  ],
+  "nominal_tau": 0.01,
+  "C1": {
+    "per_tau": {
+      "0.001": {
+        "efficiency": {
+          "Well-spread": 1.0,
+          "Two groups": 0.9560439560439561,
+          "Corner cluster": 1.0,
+          "One wall": 0.6263736263736264
+        },
+        "order": [
+          "Well-spread",
+          "Corner cluster",
+          "Two groups",
+          "One wall"
+        ]
+      },
+      "0.002": {
+        "efficiency": {
+          "Well-spread": 1.0,
+          "Two groups": 0.9120879120879121,
+          "Corner cluster": 1.0,
+          "One wall": 0.4835164835164835
+        },
+        "order": [
+          "Well-spread",
+          "Corner cluster",
+          "Two groups",
+          "One wall"
+        ]
+      },
+      "0.005": {
+        "efficiency": {
+          "Well-spread": 1.0,
+          "Two groups": 0.8681318681318682,
+          "Corner cluster": 0.989010989010989,
+          "One wall": 0.42857142857142855
+        },
+        "order": [
+          "Well-spread",
+          "Corner cluster",
+          "Two groups",
+          "One wall"
+        ]
+      },
+      "0.01": {
+        "efficiency": {
+          "Well-spread": 0.978021978021978,
+          "Two groups": 0.8241758241758241,
+          "Corner cluster": 0.945054945054945,
+          "One wall": 0.34065934065934067
+        },
+        "order": [
+          "Well-spread",
+          "Corner cluster",
+          "Two groups",
+          "One wall"
+        ]
+      },
+      "0.02": {
+        "efficiency": {
+          "Well-spread": 0.978021978021978,
+          "Two groups": 0.7582417582417582,
+          "Corner cluster": 0.8681318681318682,
+          "One wall": 0.2857142857142857
+        },
+        "order": [
+          "Well-spread",
+          "Corner cluster",
+          "Two groups",
+          "One wall"
+        ]
+      },
+      "0.05": {
+        "efficiency": {
+          "Well-spread": 0.9340659340659341,
+          "Two groups": 0.5934065934065934,
+          "Corner cluster": 0.6703296703296703,
+          "One wall": 0.14285714285714285
+        },
+        "order": [
+          "Well-spread",
+          "Corner cluster",
+          "Two groups",
+          "One wall"
+        ]
+      },
+      "0.1": {
+        "efficiency": {
+          "Well-spread": 0.7142857142857143,
+          "Two groups": 0.38461538461538464,
+          "Corner cluster": 0.4945054945054945,
+          "One wall": 0.07692307692307693
+        },
+        "order": [
+          "Well-spread",
+          "Corner cluster",
+          "Two groups",
+          "One wall"
+        ]
+      }
+    },
+    "reference_order": [
+      "Well-spread",
+      "Corner cluster",
+      "Two groups",
+      "One wall"
+    ],
+    "invariant": true
+  },
+  "C2": {
+    "n_values": [
+      20,
+      40,
+      60,
+      90
+    ],
+    "per_tau": {
+      "0.001": {
+        "perimeter": [
+          188,
+          553,
+          666,
+          747
+        ],
+        "interior": [
+          190,
+          533,
+          811,
+          1057
+        ],
+        "perimeter_final_growth": 0.12162162162162163,
+        "interior_final_growth": 0.3033292231812577,
+        "asymmetry_holds": false
+      },
+      "0.002": {
+        "perimeter": [
+          182,
+          483,
+          557,
+          612
+        ],
+        "interior": [
+          184,
+          464,
+          682,
+          854
+        ],
+        "perimeter_final_growth": 0.09874326750448834,
+        "interior_final_growth": 0.25219941348973607,
+        "asymmetry_holds": false
+      },
+      "0.005": {
+        "perimeter": [
+          176,
+          393,
+          432,
+          427
+        ],
+        "interior": [
+          171,
+          376,
+          517,
+          592
+        ],
+        "perimeter_final_growth": -0.011574074074074073,
+        "interior_final_growth": 0.1450676982591876,
+        "asymmetry_holds": true
+      },
+      "0.01": {
+        "perimeter": [
+          170,
+          317,
+          312,
+          311
+        ],
+        "interior": [
+          154,
+          298,
+          382,
+          414
+        ],
+        "perimeter_final_growth": -0.003205128205128205,
+        "interior_final_growth": 0.08376963350785341,
+        "asymmetry_holds": true
+      },
+      "0.02": {
+        "perimeter": [
+          163,
+          223,
+          225,
+          226
+        ],
+        "interior": [
+          134,
+          214,
+          258,
+          276
+        ],
+        "perimeter_final_growth": 0.0044444444444444444,
+        "interior_final_growth": 0.06976744186046512,
+        "asymmetry_holds": true
+      },
+      "0.05": {
+        "perimeter": [
+          123,
+          130,
+          130,
+          130
+        ],
+        "interior": [
+          91,
+          117,
+          140,
+          144
+        ],
+        "perimeter_final_growth": 0.0,
+        "interior_final_growth": 0.02857142857142857,
+        "asymmetry_holds": true
+      },
+      "0.1": {
+        "perimeter": [
+          77,
+          76,
+          76,
+          75
+        ],
+        "interior": [
+          55,
+          66,
+          76,
+          78
+        ],
+        "perimeter_final_growth": -0.013157894736842105,
+        "interior_final_growth": 0.02631578947368421,
+        "asymmetry_holds": true
+      }
+    },
+    "invariant": false
+  },
+  "C3": {
+    "per_tau": {
+      "0.001": {
+        "Wilson2010": "2",
+        "Wilson2011": "2",
+        "Utah-open": "2",
+        "Utah-apartment": "2",
+        "Utah-office": "2",
+        "McGill-Trottier": "1",
+        "McGill-CNLab": "1",
+        "BUPT": "2",
+        "Savazzi(14)": "1"
+      },
+      "0.002": {
+        "Wilson2010": "2",
+        "Wilson2011": "2",
+        "Utah-open": "2",
+        "Utah-apartment": "2",
+        "Utah-office": "2",
+        "McGill-Trottier": "1",
+        "McGill-CNLab": "1",
+        "BUPT": "2",
+        "Savazzi(14)": "1"
+      },
+      "0.005": {
+        "Wilson2010": "2",
+        "Wilson2011": "2",
+        "Utah-open": "2",
+        "Utah-apartment": "2",
+        "Utah-office": "2",
+        "McGill-Trottier": "2",
+        "McGill-CNLab": "2",
+        "BUPT": "2",
+        "Savazzi(14)": "1"
+      },
+      "0.01": {
+        "Wilson2010": "2",
+        "Wilson2011": "2",
+        "Utah-open": "2",
+        "Utah-apartment": "2",
+        "Utah-office": "2",
+        "McGill-Trottier": "2",
+        "McGill-CNLab": "2",
+        "BUPT": "2",
+        "Savazzi(14)": "1"
+      },
+      "0.02": {
+        "Wilson2010": "2",
+        "Wilson2011": "2",
+        "Utah-open": "2",
+        "Utah-apartment": "2",
+        "Utah-office": "2",
+        "McGill-Trottier": "2",
+        "McGill-CNLab": "2",
+        "BUPT": "2",
+        "Savazzi(14)": "1"
+      },
+      "0.05": {
+        "Wilson2010": "2",
+        "Wilson2011": "2",
+        "Utah-open": "2",
+        "Utah-apartment": "2",
+        "Utah-office": "2",
+        "McGill-Trottier": "2",
+        "McGill-CNLab": "2",
+        "BUPT": "2",
+        "Savazzi(14)": "2"
+      },
+      "0.1": {
+        "Wilson2010": "2",
+        "Wilson2011": "2",
+        "Utah-open": "2",
+        "Utah-apartment": "2",
+        "Utah-office": "2",
+        "McGill-Trottier": "2",
+        "McGill-CNLab": "2",
+        "BUPT": "2",
+        "Savazzi(14)": "2"
+      }
+    },
+    "reference": {
+      "Wilson2010": "2",
+      "Wilson2011": "2",
+      "Utah-open": "2",
+      "Utah-apartment": "2",
+      "Utah-office": "2",
+      "McGill-Trottier": "2",
+      "McGill-CNLab": "2",
+      "BUPT": "2",
+      "Savazzi(14)": "1"
+    },
+    "invariant": false
+  }
+}

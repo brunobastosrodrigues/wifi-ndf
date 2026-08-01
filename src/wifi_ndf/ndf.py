@@ -32,7 +32,8 @@ WAVELENGTH_2_4GHZ_M = SPEED_OF_LIGHT_M_S / 2.4e9  # ~0.125 m
 WAVELENGTH_5GHZ_M = SPEED_OF_LIGHT_M_S / 5.0e9     # ~0.060 m
 
 # Grid discretization
-DEFAULT_GRID_RESOLUTION_M = 0.25
+DEFAULT_GRID_RESOLUTION_M = None   # auto: sigma_F(d_min)/2, see _auto_grid
+MIN_GRID_RESOLUTION_M = 0.015
 
 # Fresnel weight model
 FRESNEL_SIGMA_FRACTION = 0.5
@@ -124,7 +125,7 @@ def compute_ndf(
     room: Optional[Tuple[float, float]] = None,
     freq_ghz: float = 2.4,
     threshold: float = DEFAULT_NDF_THRESHOLD,
-    grid_resolution_m: float = DEFAULT_GRID_RESOLUTION_M,
+    grid_resolution_m: Optional[float] = DEFAULT_GRID_RESOLUTION_M,
 ) -> NDFResult:
     """Compute the NDF of a WiFi mesh from node positions.
 
@@ -135,7 +136,10 @@ def compute_ndf(
             from node positions with 10% margin.
         freq_ghz: Carrier frequency in GHz (default 2.4).
         threshold: Relative singular value threshold (default 0.01 = 1%).
-        grid_resolution_m: Grid cell size in meters (default 0.25).
+        grid_resolution_m: Grid cell size in meters. Default None chooses
+            sigma_F(d_min)/2, half the Gaussian Fresnel width of the shortest
+            link, the coarsest grid that resolves every beam. A fixed coarse
+            value under-counts NDF for near-collinear or clustered layouts.
 
     Returns:
         NDFResult with NDF, efficiency, and diagnostic info.
@@ -170,6 +174,16 @@ def compute_ndf(
         bounds = _compute_room_bounds(positions)
         (x0, y0), (x1, y1) = bounds
         room_size = (x1 - x0, y1 - y0)
+
+    # Physical grid criterion: resolve the narrowest Fresnel zone. Coarser
+    # grids merge near-degenerate rows and under-count NDF for exactly the
+    # degenerate layouts the metric exists to flag.
+    if grid_resolution_m is None:
+        d = np.linalg.norm(
+            positions[:, None, :] - positions[None, :, :], axis=-1)
+        d_min = d[np.triu_indices(len(positions), k=1)].min()
+        sigma_f = np.sqrt(wavelength * d_min / 4.0) / 2.0
+        grid_resolution_m = max(sigma_f / 2.0, MIN_GRID_RESOLUTION_M)
 
     # Build sensing matrix
     W, _, _ = _build_sensing_matrix(

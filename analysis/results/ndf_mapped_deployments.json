@@ -1,0 +1,154 @@
+{
+  "tau": 0.01,
+  "deployments": {
+    "Dornbirn (office)": {
+      "n_nodes": 8,
+      "n_links": 28,
+      "ndf": 28,
+      "efficiency": 1.0,
+      "area_m2": 12.76,
+      "ka": 101.30252167893094,
+      "aspect_ratio": 1.517241379310345,
+      "margin_over_tau": 11.150893932617839,
+      "source": "SVG, metric axes",
+      "exact": true,
+      "subsets": {
+        "3": {
+          "n": 56,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "4": {
+          "n": 70,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "5": {
+          "n": 56,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "6": {
+          "n": 28,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "7": {
+          "n": 8,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "8": {
+          "n": 1,
+          "min": 1.0,
+          "max": 1.0
+        }
+      },
+      "readoff_jitter": {
+        "min": 1.0,
+        "max": 1.0
+      }
+    },
+    "sg-lab": {
+      "n_nodes": 8,
+      "n_links": 28,
+      "ndf": 28,
+      "efficiency": 1.0,
+      "area_m2": 32.0775,
+      "ka": 160.61835578928955,
+      "aspect_ratio": 1.5494505494505495,
+      "margin_over_tau": 16.146672223841236,
+      "source": "PNG read-off",
+      "exact": true,
+      "subsets": {
+        "3": {
+          "n": 56,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "4": {
+          "n": 70,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "5": {
+          "n": 56,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "6": {
+          "n": 28,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "7": {
+          "n": 8,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "8": {
+          "n": 1,
+          "min": 1.0,
+          "max": 1.0
+        }
+      },
+      "readoff_jitter": {
+        "min": 1.0,
+        "max": 1.0
+      }
+    },
+    "sg-kk": {
+      "n_nodes": 9,
+      "n_links": 36,
+      "ndf": 36,
+      "efficiency": 1.0,
+      "area_m2": 19.9875,
+      "ka": 126.78683405578141,
+      "aspect_ratio": 1.8923076923076925,
+      "margin_over_tau": 6.709663936049943,
+      "source": "PNG read-off",
+      "exact": true,
+      "subsets": {
+        "3": {
+          "n": 84,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "4": {
+          "n": 126,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "5": {
+          "n": 126,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "6": {
+          "n": 84,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "7": {
+          "n": 36,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "8": {
+          "n": 9,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "9": {
+          "n": 1,
+          "min": 1.0,
+          "max": 1.0
+        }
+      },
+      "readoff_jitter": {
+        "min": 1.0,
+        "max": 1.0
+      }
+    }
+  }
+}
